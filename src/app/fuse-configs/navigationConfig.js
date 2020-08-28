@@ -20,7 +20,7 @@ const navigationConfig = [
 				title: 'Contador',
 				translate: 'Contador',
 				type: 'item',
-				icon: 'whatshot',
+				icon: 'repeat_one',
 				url: '/contador'
 			},
 			{
@@ -28,8 +28,15 @@ const navigationConfig = [
 				title: 'Contador (Redux-Hooks)',
 				translate: 'Contador (Redux-Hooks)',
 				type: 'item',
-				icon: 'whatshot',
+				icon: 'plus_one',
 				url: '/redux-hooks-contador'
+			},
+			{
+				id: 'solid',
+				title: 'SOLID',
+				type: 'item',
+				icon: 'live_help',
+				url: '/solid'
 			}
 		]
 	}
