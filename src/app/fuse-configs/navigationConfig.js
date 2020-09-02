@@ -37,6 +37,27 @@ const navigationConfig = [
 				type: 'item',
 				icon: 'live_help',
 				url: '/solid'
+			},
+			{
+				id: 'debounce-example',
+				title: 'Debounce',
+				type: 'item',
+				icon: '360',
+				url: '/debounce-example'
+			},
+			{
+				id: 'throttle-example',
+				title: 'Throttle',
+				type: 'item',
+				icon: '3d_rotation',
+				url: '/throttle-example'
+			},
+			{
+				id: 'useCallback-example',
+				title: 'useCallback',
+				type: 'item',
+				icon: '3d_rotation',
+				url: '/useCallback-example'
 			}
 		]
 	}

@@ -4,8 +4,18 @@ import FuseUtils from '@fuse/utils';
 import { ContadorAppConfig } from './../main/contador/ContadorAppConfig';
 import ReduxHooksContadorAppConfig from './../main/redux-hooks-contador/ReduxHooksContadorAppConfig';
 import SolidAppConfig from './../main/solid/SolidAppConfig';
+import DebounceExampleConfig from './../main/debounce-example/DebounceExampleConfig';
+import ThrottleExampleConfig from './../main/throttle-example/ThrottleExampleConfig';
+import UseCallbackAppConfig from './../main/useCallback/UseCallbackAppConfig';
 
-const routeConfigs = [ContadorAppConfig, ReduxHooksContadorAppConfig, SolidAppConfig];
+const routeConfigs = [
+	ContadorAppConfig,
+	ReduxHooksContadorAppConfig,
+	SolidAppConfig,
+	DebounceExampleConfig,
+	ThrottleExampleConfig,
+	UseCallbackAppConfig
+];
 
 const routes = [
 	...FuseUtils.generateRoutesFromConfigs(routeConfigs),
