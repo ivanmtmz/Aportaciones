@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Hello from './Hello';
+import { Typography } from '@material-ui/core';
 
 const UseCallbackApp = () => {
 	const [count, setCount] = useState(0);
@@ -12,9 +13,9 @@ const UseCallbackApp = () => {
 	);
 
 	return (
-		<div>
+		<div className="flex flex-col h-full justify-center items-center">
 			<Hello increment={increment} />
-			<div>Count: {count}</div>
+			<Typography className="m-8">Count: {count}</Typography>
 		</div>
 	);
 };
