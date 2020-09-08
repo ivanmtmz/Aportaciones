@@ -7,6 +7,7 @@ import SolidAppConfig from './../main/solid/SolidAppConfig';
 import DebounceExampleConfig from './../main/debounce-example/DebounceExampleConfig';
 import ThrottleExampleConfig from './../main/throttle-example/ThrottleExampleConfig';
 import UseCallbackAppConfig from './../main/useCallback/UseCallbackAppConfig';
+import ReduxHocReselectAppConfig from './../main/reselect/redux-hoc/ReduxHocReselectAppConfig';
 
 const routeConfigs = [
 	ContadorAppConfig,
@@ -14,7 +15,8 @@ const routeConfigs = [
 	SolidAppConfig,
 	DebounceExampleConfig,
 	ThrottleExampleConfig,
-	UseCallbackAppConfig
+	UseCallbackAppConfig,
+	ReduxHocReselectAppConfig
 ];
 
 const routes = [

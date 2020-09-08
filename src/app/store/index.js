@@ -2,6 +2,7 @@ import * as reduxModule from 'redux';
 import { applyMiddleware, compose, createStore } from 'redux';
 import thunk from 'redux-thunk';
 import createReducer from './reducers';
+import { getPosts } from 'app/main/reselect/redux-hoc/fixtures';
 
 /*
 Fix for Firefox redux dev tools extension
@@ -19,6 +20,9 @@ const composeEnhancers =
 const enhancer = composeEnhancers(applyMiddleware(thunk));
 
 const store = createStore(createReducer(), enhancer);
+
+//REDUX-HOC EXAMPLE
+store.dispatch({ type: 'RECEIVE_DATA', payload: getPosts() });
 
 store.asyncReducers = {};
 

@@ -58,6 +58,20 @@ const navigationConfig = [
 				type: 'item',
 				icon: '3d_rotation',
 				url: '/useCallback-example'
+			},
+			{
+				id: 'redux-reselect',
+				title: 'Redux Reselect',
+				type: 'collapse',
+				children: [
+					{
+						id: 'redux-reselect-hoc',
+						title: 'HOC',
+						type: 'item',
+						icon: 'adjust',
+						url: '/reselect/redux-hoc'
+					}
+				]
 			}
 		]
 	}
