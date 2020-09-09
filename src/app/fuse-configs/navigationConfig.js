@@ -70,6 +70,13 @@ const navigationConfig = [
 						type: 'item',
 						icon: 'adjust',
 						url: '/reselect/redux-hoc'
+					},
+					{
+						id: 'redux-reselect-hooks',
+						title: 'Hooks',
+						type: 'item',
+						icon: 'adjust',
+						url: '/reselect/redux-hooks'
 					}
 				]
 			}

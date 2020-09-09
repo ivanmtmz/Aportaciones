@@ -8,6 +8,7 @@ import DebounceExampleConfig from './../main/debounce-example/DebounceExampleCon
 import ThrottleExampleConfig from './../main/throttle-example/ThrottleExampleConfig';
 import UseCallbackAppConfig from './../main/useCallback/UseCallbackAppConfig';
 import ReduxHocReselectAppConfig from './../main/reselect/redux-hoc/ReduxHocReselectAppConfig';
+import ReduxHooksReselectAppConfig from './../main/reselect/redux-hooks/ReduxHooksReselectAppConfig';
 
 const routeConfigs = [
 	ContadorAppConfig,
@@ -16,7 +17,8 @@ const routeConfigs = [
 	DebounceExampleConfig,
 	ThrottleExampleConfig,
 	UseCallbackAppConfig,
-	ReduxHocReselectAppConfig
+	ReduxHocReselectAppConfig,
+	ReduxHooksReselectAppConfig
 ];
 
 const routes = [

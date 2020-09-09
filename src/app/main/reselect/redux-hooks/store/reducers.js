@@ -46,7 +46,7 @@ export const postListingReducer = (state = [], action) => {
 
 export const counterReducer = (state = 1, action) => {
 	switch (action.type) {
-		case 'INCREMENT_REDUX_HOC':
+		case 'INCREMENT_REDUX_HOOKS':
 			return state + 1;
 		default:
 			return state;

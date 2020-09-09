@@ -18,7 +18,7 @@ class Counter extends React.Component {
 
 const mapState = state => ({ count: state.reduxhoc_reselect.count });
 const mapDispatch = {
-	increment: () => ({ type: 'INCREMENT' })
+	increment: () => ({ type: 'INCREMENT_REDUX_HOC' })
 };
 
 export default connect(mapState, mapDispatch)(Counter);
