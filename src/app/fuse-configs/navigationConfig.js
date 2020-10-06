@@ -39,6 +39,21 @@ const navigationConfig = [
 				url: '/solid'
 			},
 			{
+				id: 'solid-2',
+				title: 'Solid 2',
+				type: 'collapse',
+				icon: 'grain',
+				children: [
+					{
+						id: 'solid-srp',
+						title: 'SRP No aplica',
+						type: 'collapse',
+						icon: 'exposure_plus_1',
+						children: [{ id: 'solid-srp', title: 'SRP', type: 'item', icon: 'adjust', url: '/srp-no' }]
+					}
+				]
+			},
+			{
 				id: 'debounce-example',
 				title: 'Debounce',
 				type: 'item',

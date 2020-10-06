@@ -9,6 +9,7 @@ import ThrottleExampleConfig from './../main/throttle-example/ThrottleExampleCon
 import UseCallbackAppConfig from './../main/useCallback/UseCallbackAppConfig';
 import ReduxHocReselectAppConfig from './../main/reselect/redux-hoc/ReduxHocReselectAppConfig';
 import ReduxHooksReselectAppConfig from './../main/reselect/redux-hooks/ReduxHooksReselectAppConfig';
+import Solid2AppConfig from './../main/solid-2/solidAppConfigs';
 
 const routeConfigs = [
 	ContadorAppConfig,
@@ -18,7 +19,8 @@ const routeConfigs = [
 	ThrottleExampleConfig,
 	UseCallbackAppConfig,
 	ReduxHocReselectAppConfig,
-	ReduxHooksReselectAppConfig
+	ReduxHooksReselectAppConfig,
+	...Solid2AppConfig
 ];
 
 const routes = [
