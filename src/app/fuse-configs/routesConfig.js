@@ -10,6 +10,7 @@ import UseCallbackAppConfig from './../main/useCallback/UseCallbackAppConfig';
 import ReduxHocReselectAppConfig from './../main/reselect/redux-hoc/ReduxHocReselectAppConfig';
 import ReduxHooksReselectAppConfig from './../main/reselect/redux-hooks/ReduxHooksReselectAppConfig';
 import Solid2AppConfig from './../main/solid-2/solidAppConfigs';
+import RenderPropMousesAppConfig from './../main/render-props/mouse/RenderPropMousesAppConfig';
 
 const routeConfigs = [
 	ContadorAppConfig,
@@ -20,6 +21,7 @@ const routeConfigs = [
 	UseCallbackAppConfig,
 	ReduxHocReselectAppConfig,
 	ReduxHooksReselectAppConfig,
+	RenderPropMousesAppConfig,
 	...Solid2AppConfig
 ];
 

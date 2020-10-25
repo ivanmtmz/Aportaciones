@@ -94,6 +94,20 @@ const navigationConfig = [
 						url: '/reselect/redux-hooks'
 					}
 				]
+			},
+			{
+				id: 'render-props',
+				title: 'Render Props',
+				type: 'collapse',
+				children: [
+					{
+						id: 'render-props-mouse',
+						title: 'Mouse',
+						type: 'item',
+						icon: 'adjust',
+						url: '/render-props/mouse'
+					}
+				]
 			}
 		]
 	}
