@@ -104,8 +104,22 @@ const navigationConfig = [
 						id: 'render-props-mouse',
 						title: 'Mouse',
 						type: 'item',
-						icon: 'adjust',
+						icon: 'mouse',
 						url: '/render-props/mouse'
+					}
+				]
+			},
+			{
+				id: 'hooks',
+				title: 'Hooks',
+				type: 'collapse',
+				children: [
+					{
+						id: 'hooks-mouse',
+						title: 'Mouse',
+						type: 'item',
+						icon: 'mouse',
+						url: '/hooks/mouse'
 					}
 				]
 			}

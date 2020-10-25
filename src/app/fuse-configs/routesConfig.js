@@ -11,6 +11,7 @@ import ReduxHocReselectAppConfig from './../main/reselect/redux-hoc/ReduxHocRese
 import ReduxHooksReselectAppConfig from './../main/reselect/redux-hooks/ReduxHooksReselectAppConfig';
 import Solid2AppConfig from './../main/solid-2/solidAppConfigs';
 import RenderPropMousesAppConfig from './../main/render-props/mouse/RenderPropMousesAppConfig';
+import HooksMouseAppConfig from './../main/hooks/mouse/HooksMouseAppConfig';
 
 const routeConfigs = [
 	ContadorAppConfig,
@@ -22,6 +23,7 @@ const routeConfigs = [
 	ReduxHocReselectAppConfig,
 	ReduxHooksReselectAppConfig,
 	RenderPropMousesAppConfig,
+	HooksMouseAppConfig,
 	...Solid2AppConfig
 ];
 
